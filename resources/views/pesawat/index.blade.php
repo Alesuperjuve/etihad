@@ -22,9 +22,7 @@
                 <div class="tab-content" id="myTabContent">
                     <!-- Konten Pabrikan -->
                     <div class="tab-pane fade show active" id="pabrikan" role="tabpanel" aria-labelledby="pabrikan-tab">
-                        <h3 class="mt-3">Informasi Pabrikan</h3>
-                        <p>Konten mengenai pabrikan akan ditampilkan di sini. Informasi ini dapat mencakup detail tentang perusahaan yang memproduksi pesawat, mesin, atau komponen lainnya.</p>
-
+                    
                         <div class="table-responsive">
                             <table class="table table-hover" id="maskapaiTable">
                                 <thead>
@@ -55,10 +53,8 @@
 
                     <!-- Konten maskapai -->
                     <div class="tab-pane fade" id="maskapai" role="tabpanel" aria-labelledby="maskapai-tab">
-                        <h3 class="mt-3">Informasi Maskapai</h3>
-                        <p>Konten mengenai maskapai akan ditampilkan di sini. Informasi ini dapat mencakup detail tentang berbagai maskapai penerbangan, rute, dan layanan mereka.</p>
-
-                        <div class="table-responsive">
+                       
+                          <div class="table-responsive">
                             <table class="table table-hover" id="maskapaiTable">
                                 <thead>
                                     <tr>
