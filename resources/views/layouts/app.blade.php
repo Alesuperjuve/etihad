@@ -4,7 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ config('app.name', 'Placard Dubai') }}</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>{{ config('app.name') }}</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="skydash/src/assets/vendors/feather/feather.css">
     <link rel="stylesheet" href="skydash/src/assets/vendors/ti-icons/css/themify-icons.css">
@@ -25,6 +26,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    
+
   </head>
   <body>
     <div class="container-scroller">

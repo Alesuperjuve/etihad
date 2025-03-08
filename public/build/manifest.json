@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-DWIlVwZZ.css",
+    "file": "assets/app-W8z0JkhC.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -8,6 +8,18 @@
     "file": "assets/app-CvSG40sc.js",
     "name": "app",
     "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/modal-airport.js": {
+    "file": "assets/modal-airport-l0sNRNKZ.js",
+    "name": "modal-airport",
+    "src": "resources/js/modal-airport.js",
+    "isEntry": true
+  },
+  "resources/js/search-data-airport.js": {
+    "file": "assets/search-data-airport-C01YcnYl.js",
+    "name": "search-data-airport",
+    "src": "resources/js/search-data-airport.js",
     "isEntry": true
   }
 }
